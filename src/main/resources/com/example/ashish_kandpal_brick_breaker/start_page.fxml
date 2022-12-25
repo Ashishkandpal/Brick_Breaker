@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: Screenshot 2022-12-22 at 10.47.53 PM;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ashish_kandpal_brick_breaker.HelloApplication">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="606.0" layoutX="-6.0" translateZ="-1.0">
+         <image>
+            <Image url="@Theme.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="200.0" layoutY="294.0">
+         <image>
+            <Image url="@Start.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="200.0" layoutY="300.0" mnemonicParsing="false" onAction="#onChooseButtonClick" opacity="0.0" prefHeight="64.0" prefWidth="200.0" style="-fx-background-image: co;" text="Start" translateZ="1.0" />
+   </children>
+</AnchorPane>
